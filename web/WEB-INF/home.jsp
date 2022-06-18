@@ -1,17 +1,17 @@
-<%-- 
-    Document   : home
-    Created on : Jun 17, 2022, 7:08:33 PM
-    Author     : mehar
---%>
-
+ 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>home</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Home Page</h1>
+        <h3>Hello ${user.username}.</h3>
+        <div> 
+             <a href="login?action=logout">Log out</a>
+        </div>
+       
     </body>
 </html>
